@@ -1,5 +1,7 @@
 package Front;
 public class bus extends vehicles {
+    //mamad nabodi bebini
+    int x=5;
     public bus() {
         initComponents();
     }
