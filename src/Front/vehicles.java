@@ -1,4 +1,7 @@
 package Front;
+
+import java.awt.Graphics;
+
 /**
  *
  * @author ACER
@@ -21,7 +24,7 @@ public abstract class vehicles extends movable {
     public int getLenghtX() {
         return LenghtX;
     }
-    public abstract void paint(int x,int y);
+    public abstract void paint(Graphics g);
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
