@@ -3,17 +3,17 @@ lernTrafficRules is desktop game that you can simulate a highway with serveral b
 
 Start page:
 
-<img alt='Start page of the game' style='display:block; margin:auto;' src='https://raw.githubusercontent.com/sina7843/lernTrafficRules/master/src/image/gamePlay/Screen Capture #001.png' />
+<img alt='Start page of the game' style='display:block; margin:auto;' src='https://raw.githubusercontent.com/sina7843/lernTrafficRules/master/src/image/gamePlay/ScreenCapture#001.png' />
 
 setting page:
 
-<img alt='MapBuilder page of the game' style='display:block; margin:auto;' src='https://raw.githubusercontent.com/sina7843/lernTrafficRules/master/src/image/gamePlay/Screen Capture #002.png' />
+<img alt='MapBuilder page of the game' style='display:block; margin:auto;' src='https://raw.githubusercontent.com/sina7843/lernTrafficRules/master/src/image/gamePlay/ScreenCapture#002.png' />
 
-<img alt='MapBuilder page of the game' style='display:block; margin:auto;' src='https://raw.githubusercontent.com/sina7843/lernTrafficRules/master/src/image/gamePlay/Screen Capture #003.png' />
+<img alt='MapBuilder page of the game' style='display:block; margin:auto;' src='https://raw.githubusercontent.com/sina7843/lernTrafficRules/master/src/image/gamePlay/ScreenCapture#003.png' />
 
 Game play:
 
-<img alt='Game page' style='display:block; margin:auto;' src='https://raw.githubusercontent.com/sina7843/lernTrafficRules/master/src/image/gamePlay/Screen Capture #003.png' />
+<img alt='Game page' style='display:block; margin:auto;' src='https://raw.githubusercontent.com/sina7843/lernTrafficRules/master/src/image/gamePlay/ScreenCapture#003.png' />
 
 ## Installation guide
 First, make sure that JDK 8 or higher is installed on your machine, then clone this repository:
