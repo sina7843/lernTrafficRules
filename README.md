@@ -7,13 +7,13 @@ Start page:
 
 setting page:
 
-<img alt='MapBuilder page of the game' style='display:block; margin:auto;' src='http://uupload.ir/files/dfz_screencapture_002.png' />
+<img alt='MapBuilder page of the game' style='display:block; margin:auto;' src='http://uupload.ir/files/37gt_screencapture_002.png' />
 
-<img alt='MapBuilder page of the game' style='display:block; margin:auto;' src='http://uupload.ir/files/dfz_screencapture_003.png' />
+<img alt='MapBuilder page of the game' style='display:block; margin:auto;' src='http://uupload.ir/files/e92c_screencapture_003.png' />
 
 Game play:
 
-<img alt='Game page' style='display:block; margin:auto;' src='http://uupload.ir/files/dfz_screencapture_004.png' />
+<img alt='Game page' style='display:block; margin:auto;' src='http://uupload.ir/files/8dy2_screencapture_004.png' />
 
 ## Installation guide
 First, make sure that JDK 8 or higher is installed on your machine, then clone this repository:
