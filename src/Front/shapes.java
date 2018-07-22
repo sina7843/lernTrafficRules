@@ -2,16 +2,12 @@ package Front;
 
 import java.awt.Color;
 import java.awt.Point;
-
-/**
- *
- * @author ACER
- */
-public class shapes extends javax.swing.JPanel {
+import java.io.Serializable;
+public class shapes extends javax.swing.JPanel implements Serializable{
      public shapes() {
         initComponents();
     }
-    public Point Points=new Point(0,0);
+    private Point Points=new Point(0,0);
     private Color Fill=new Color(0,0,0);
     private Color Borders=new Color(0,0,0);
     public void setPoints(int x,int y)

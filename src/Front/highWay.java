@@ -5,16 +5,22 @@
  */
 package Front;
 
+import java.awt.Color;
+import java.awt.Graphics;
+import main.Main;
+
 /**
  *
  * @author ACER
  */
-public class highWay extends manualFix {
+public class highWay extends manualFix{
 
     /**
      * Creates new form highWay
      */
-    public highWay() {
+    public highWay(int Starty,int LenghtY) {
+        super.setLenghtY(LenghtY);
+        super.setPoints(0, Starty);
         initComponents();
     }
 
@@ -42,4 +48,21 @@ public class highWay extends manualFix {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
+
+    public void draw(Graphics g) {
+        super.setLenghtX(Main.WidthFrame);
+        
+        g.setColor(Color.gray);
+        g.fillRect(super.getXPoints(), super.getYPoints(), super.getLenghtX(), super.getLenghtY());
+        
+        g.setColor(Color.white);
+        for(int i=0;i<super.getLenghtX();i+=super.getLenghtX()/10)
+        {
+            g.fillRect(super.getXPoints()+i, super.getYPoints(), super.getLenghtX()/20, super.getLenghtY()/15);
+        }
+        //g.setColor(Color.yellow);
+        //g.fillRect(super.getXPoints()-super.getLenghtX()/35, super.getYPoints()+(35*super.getLenghtY()/36), super.getLenghtX(), super.getLenghtY()/50);
+    
+        //g.fillRect(super.getXPoints()-super.getLenghtX()/35, super.getYPoints()+(super.getLenghtY()/80), super.getLenghtX(), super.getLenghtY()/50);    
+    }
 }
